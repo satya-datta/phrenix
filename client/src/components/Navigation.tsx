@@ -16,15 +16,16 @@ export function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: "Services", href: "#services" },
-    { name: "Work", href: "#work" },
-    { name: "Process", href: "#process" },
-    { name: "FAQs", href: "#faqs" },
+    { name: "Services", href: "/#services" },
+    { name: "Work", href: "/#work" },
+    { name: "Process", href: "/#process" },
+    { name: "FAQs", href: "/#faqs" },
   ];
 
-  const handleScrollTo = (e: React.MouseEvent, id: string) => {
-    e.preventDefault();
-    if (id.startsWith("#")) {
+  const handleScrollTo = (e: React.MouseEvent, href: string) => {
+    if (href.startsWith("/#") && window.location.pathname === "/") {
+      e.preventDefault();
+      const id = href.replace("/", "");
       const element = document.querySelector(id);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });

@@ -37,18 +37,12 @@ export function Footer() {
 
           <div>
             <h4 className="font-bold mb-6 text-white">Connect</h4>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F7DB91] hover:text-black transition-all">
-                <Twitter size={18} />
+            <div className="flex flex-col gap-4 text-sm text-gray-400">
+              <a href="mailto:kallepalli.satyadatta@gmail.com" className="hover:text-[#F7DB91] transition-colors break-all">
+                kallepalli.satyadatta@gmail.com
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F7DB91] hover:text-black transition-all">
-                <Linkedin size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F7DB91] hover:text-black transition-all">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F7DB91] hover:text-black transition-all">
-                <Github size={18} />
+              <a href="tel:+916304586548" className="hover:text-[#F7DB91] transition-colors">
+                +91 6304586548
               </a>
             </div>
           </div>
