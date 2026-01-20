@@ -1,0 +1,192 @@
+📘 Case Study: ReadGro – Learn & Earn Platform
+🔹 Project Overview
+
+ReadGro is a full-stack Learn & Earn web platform designed to combine online education with a referral-based earning system.
+The platform enables users to enroll in skill-based courses and earn commissions by referring those courses to others.
+
+This project was developed end-to-end by our team — from product idea and system architecture to frontend, backend, payments, and admin management.
+
+Live Website: https://readgro.com
+
+🎯 Problem Statement
+
+Traditional e-learning platforms focus only on content consumption:
+
+Learners gain skills but no financial incentive
+
+Course marketing depends heavily on ads
+
+Limited engagement after course completion
+
+There was a need for a platform where:
+
+Learners can monetize their network
+
+Education becomes self-promoting
+
+Users stay engaged beyond learning
+
+💡 Solution
+
+We built ReadGro, a platform that merges:
+
+📚 Skill-based learning
+
+🔗 Referral-driven earning
+
+📊 Transparent dashboards for users and admins
+
+The solution encourages users to:
+
+Learn new skills
+
+Share courses
+
+Earn commissions from successful referrals
+
+This creates a community-driven growth model.
+
+🧠 Key Features
+👤 User Module
+
+User registration & authentication
+
+Course browsing and enrollment
+
+Referral link generation
+
+Earnings tracking dashboard
+
+Withdrawal request system
+
+Secure user sessions
+
+🎓 Course Management
+
+Admin-created courses
+
+Course grouping and pricing plans
+
+Course access control based on purchase
+
+Scalable content structure
+
+💸 Referral & Earnings System
+
+Unique referral codes for users
+
+Commission calculation per referral
+
+Earnings history & withdrawal tracking
+
+Admin approval flow for payouts
+
+🛠 Admin Panel
+
+Course & package management
+
+User management
+
+Referral analytics
+
+Withdrawal request processing
+
+Platform-wide monitoring
+
+🏗 Technical Architecture
+Frontend
+
+React / Next.js for scalable UI
+
+Responsive design for mobile & desktop
+
+Component-based architecture
+
+Secure routing for protected dashboards
+
+Backend
+
+Node.js & Express
+
+RESTful API architecture
+
+JWT-based authentication
+
+Role-based access (Admin / User)
+
+Database
+
+MySQL / MongoDB (relational structure for users, courses, referrals)
+
+Optimized queries for analytics & reporting
+
+Payments
+
+Razorpay integration
+
+Secure transaction handling
+
+Payout workflow with verification
+
+Hosting & Deployment
+
+Cloud-based hosting
+
+HTTPS-secured production environment
+
+Environment-based configuration
+
+🔄 User Flow
+
+User signs up on ReadGro
+
+Selects and purchases a course
+
+Receives a unique referral link
+
+Shares the link with others
+
+Earns commission on successful purchases
+
+Requests withdrawal from dashboard
+
+Admin processes payout
+
+📈 Impact & Results
+
+🚀 Created a scalable education + earning ecosystem
+
+🤝 Enabled organic growth through referrals
+
+💼 Increased user retention via incentives
+
+🧩 Built a reusable architecture for similar platforms
+
+🧪 Challenges & How We Solved Them
+Challenge	Solution
+Referral tracking accuracy	Unique referral codes + backend validation
+Secure earnings & payouts	Admin approval flow + transaction logs
+Scalable course structure	Modular course & package schema
+Auth issues on production	HTTPS-aware session & token handling
+🏁 Final Outcome
+
+ReadGro successfully demonstrates how education platforms can be monetized ethically by empowering learners to become contributors.
+The project showcases our expertise in:
+
+Full-stack web development
+
+Fintech integrations
+
+Scalable system design
+
+Business-driven product engineering
+
+🧑‍💻 Our Role
+
+✔ Product Planning
+✔ UI/UX Design
+✔ Frontend Development
+✔ Backend & API Development
+✔ Database Design
+✔ Payment Integration
+✔ Deployment & Maintenance

@@ -330,33 +330,39 @@ export default function Home() {
           <div className="space-y-24">
             {[
               {
-                title: "FinTech Dashboard",
-                cat: "Web App • React • Node.js",
-                desc: "A comprehensive financial analytics platform handling millions of transactions in real-time.",
-                img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200"
+                title: "ReadGro: Learn & Earn",
+                cat: "EdTech • Fintech • Case Study",
+                desc: "A full-stack platform combining skill-based education with a powerful referral-driven earning system.",
+                img: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=1200",
+                link: "/work/readgro"
               },
               {
                 title: "Lifestyle E-Commerce",
                 cat: "Shopify • Headless • Design",
                 desc: "Rebranding and custom storefront for a premium lifestyle brand, increasing conversion by 45%.",
-                img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
+                img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
+                link: "#"
               }
             ].map((project, i) => (
               <div key={i} className={`flex flex-col ${i % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-12 items-center`}>
                 <div className="lg:w-1/2 group cursor-pointer overflow-hidden rounded-2xl shadow-lg">
-                  <img 
-                    src={project.img} 
-                    alt={project.title} 
-                    className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700" 
-                  />
+                  <Link href={project.link}>
+                    <img 
+                      src={project.img} 
+                      alt={project.title} 
+                      className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700" 
+                    />
+                  </Link>
                 </div>
                 <div className="lg:w-1/2">
                   <span className="text-[#dcb348] font-bold text-sm tracking-widest uppercase mb-3 block">{project.cat}</span>
                   <h3 className="text-3xl font-bold font-display mb-4">{project.title}</h3>
                   <p className="text-gray-600 text-lg mb-8 leading-relaxed">{project.desc}</p>
-                  <button className="flex items-center gap-2 font-semibold hover:gap-3 transition-all">
-                    Case Study <ArrowRight size={18} />
-                  </button>
+                  <Link href={project.link}>
+                    <button className="flex items-center gap-2 font-semibold hover:gap-3 transition-all">
+                      Case Study <ArrowRight size={18} />
+                    </button>
+                  </Link>
                 </div>
               </div>
             ))}
