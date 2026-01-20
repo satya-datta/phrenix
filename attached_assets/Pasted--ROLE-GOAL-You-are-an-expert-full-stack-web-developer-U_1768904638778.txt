@@ -1,0 +1,360 @@
+
+
+## 🔹 ROLE & GOAL
+
+You are an **expert full-stack web developer, UI/UX designer, and SEO specialist**.
+
+Your task is to **design and build a modern, high-converting, SEO-optimized landing page website** for a technology company named **Phrenix**.
+
+The website should be:
+
+* Professional
+* Premium
+* Trust-building
+* Smoothly animated
+* Highly interactive
+* SEO-optimized
+* Mobile-first and responsive
+
+The structure should be **similar to modern agency landing pages (like CodeDale)** but **NOT copied**.
+Content must be **original**, tailored to Phrenix, and focused on **business outcomes**, not just features.
+
+---
+
+## 🔹 COMPANY CONTEXT
+
+* Company Name: **Phrenix**
+* Industry: Technology Solutions / Software Development
+* Team size: Small, agile team (DO NOT mention number of people)
+* Experience: Has delivered real projects (e.g., e-commerce platforms, web apps)
+* Target Audience:
+
+  * Startups
+  * Small & mid-size businesses
+  * Founders looking to build scalable digital products
+
+---
+
+## 🔹 TECH STACK (Preferred)
+
+* Frontend: **Next.js / React**
+* Styling: **Tailwind CSS**
+* Animations: **Framer Motion**
+* Forms & Scheduling: **Cal.com OR Calendly**
+* SEO: Next.js SEO best practices
+* Deployment-ready (Vercel compatible)
+Color : white and #F7DB91
+
+
+---
+
+## 🔹 WEBSITE PAGES REQUIRED
+
+### 1️⃣ Landing Page (Main Page)
+
+### 2️⃣ Book My Call Page (Very Important)
+
+---
+
+# 🔹 LANDING PAGE STRUCTURE & CONTENT REQUIREMENTS
+
+---
+
+## 🔸 1. Header / Navigation (Sticky)
+
+Include:
+
+* Phrenix logo (text-based placeholder)
+* Navigation links:
+
+  * Services
+  * Work
+  * Process
+  * FAQs
+  * Contact
+* Primary CTA button:
+  **“Book a Free Strategy Call”**
+
+UX:
+
+* Sticky on scroll
+* Mobile hamburger menu
+* Smooth scroll to sections
+
+---
+
+## 🔸 2. Hero Section (Above the Fold)
+
+Purpose: Immediate clarity + trust + conversion
+
+Include:
+
+* Strong outcome-driven headline
+  Example (can improve):
+
+  > “We Build High-Impact Digital Products That Scale With Your Business”
+
+* Supporting subheadline:
+
+  > “Phrenix partners with startups and businesses to design, build, and launch web & mobile solutions that drive growth.”
+
+* Primary CTA: **Book a Free 30-Minute Call**
+
+* Secondary CTA: **View Our Work**
+
+* Subtle background animation or gradient
+
+* Trust signal:
+
+  * “Trusted by growing startups & businesses worldwide”
+
+SEO:
+
+* `<h1>` optimized
+* Keyword-rich subtext
+
+---
+
+## 🔸 3. Problems Modern Businesses Face
+
+Section title example:
+
+> “Challenges Businesses Face in Building Digital Products”
+
+Cards or grid with:
+
+* Slow development cycles
+* Poor scalability
+* Lack of technical clarity
+* High development costs
+* Inconsistent user experience
+
+Each card:
+
+* Icon
+* Short description
+* Business-focused language
+
+---
+
+## 🔸 4. Our Solution / Value Proposition
+
+Explain how **Phrenix solves these problems**.
+
+Include:
+
+* Agile development
+* Scalable architecture
+* Clean UI/UX
+* Transparent communication
+* Long-term support mindset
+
+Tone:
+
+* Confident
+* Clear
+* Outcome-focused
+
+---
+
+## 🔸 5. How We Work (Process Section)
+
+4-step process:
+
+1. Discovery & Strategy
+2. Design & Architecture
+3. Development & Testing
+4. Launch & Ongoing Support
+
+Add:
+
+* Icons
+* Subtle animations
+* Clear timelines
+
+This section is **mandatory for conversions**.
+
+---
+
+## 🔸 6. Services Section (Outcome-Based)
+
+Each service card must include:
+
+* Title
+* Short description
+* Business benefit
+
+Services:
+
+* Web Development
+* Mobile App Development
+* E-commerce Solutions
+* UI/UX Design
+* Cloud & Backend Development
+* Custom Software Solutions
+
+Avoid generic wording.
+
+---
+
+## 🔸 7. Our Work / Portfolio
+
+Use **mock data** for now.
+
+Create 3–4 project cards:
+
+* Project name
+* Industry
+* Problem summary
+* Solution delivered
+* Result (mock metrics allowed)
+
+Example:
+
+> “E-commerce Platform for Retail Brand
+> Increased checkout speed by 35% and improved conversion rates.”
+
+---
+
+## 🔸 8. Why Choose Phrenix
+
+Include:
+
+* Fast & reliable delivery
+* Clear communication
+* Scalable solutions
+* Business-first approach
+* Long-term partnership mindset
+
+Use icons or bullet cards.
+
+---
+
+## 🔸 9. Achievements / Metrics
+
+Mock metrics allowed:
+
+* 20+ Projects Delivered
+* 10+ Industries Served
+* 95% Client Satisfaction
+* Global Clients
+
+Animated counters preferred.
+
+---
+
+## 🔸 10. Testimonials (Mock Data)
+
+Include 2–3 testimonials:
+
+* Client name (mock)
+* Role (Founder / Manager)
+* Short impactful quote
+
+Place strategically (not all together).
+
+---
+
+## 🔸 11. FAQs (SEO Optimized)
+
+Accordion-style FAQs:
+
+* How long does a project take?
+* Do you provide post-launch support?
+* What industries do you work with?
+* How does pricing work?
+* How do we get started?
+
+Use structured content for SEO.
+
+---
+
+## 🔸 12. Final CTA Section
+
+Strong closing CTA:
+
+> “Let’s Build Something Powerful Together”
+
+Button:
+
+* **Book a Free Strategy Call**
+
+Urgency copy:
+
+> “Limited onboarding slots available each month.”
+
+---
+
+## 🔸 13. Footer
+
+Include:
+
+* Logo
+* Short company description
+* Quick links
+* Contact email (placeholder)
+* Social icons
+* Privacy Policy & Terms
+
+---
+
+# 🔹 BOOK MY CALL PAGE (MANDATORY)
+
+## Page Name: **Book a Free Strategy Call**
+
+Purpose:
+
+* Schedule a 30-minute meeting
+
+Include:
+
+* Clear heading
+* Explanation of what happens on the call
+* Embedded scheduling tool:
+
+  * **Cal.com OR Calendly embed**
+* Timezone auto-detection
+* Confirmation message after booking
+
+---
+
+## 🔹 BACKEND REQUIREMENTS (Minimal & Clean)
+
+* No heavy backend required
+* Scheduling handled by **Cal.com / Calendly**
+* Optional:
+
+  * Contact form submission → Email
+  * Analytics integration
+* Ensure:
+
+  * Secure
+  * Fast
+  * SEO-friendly
+
+---
+
+## 🔹 SEO REQUIREMENTS (CRITICAL)
+
+* Proper heading hierarchy (H1–H3)
+* Meta title & description for each page
+* Clean URLs
+* Image alt tags
+* Fast load time
+* Mobile optimization
+* Schema-friendly FAQ structure
+
+
+
+## 🔹 FINAL EXPECTATION
+
+Deliver:
+
+* Clean, modern UI
+* Smooth animations
+* High conversion focus
+* SEO-optimized structure
+* Scalable codebase
+* Production-ready website
+
+
