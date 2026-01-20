@@ -58,7 +58,7 @@ export function Navigation() {
           ))}
           <Link href="/book">
             <button className="bg-[#F7DB91] hover:bg-[#F2D070] text-black font-semibold py-2.5 px-6 rounded-full transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 text-sm">
-              Book Strategy Call
+              Connect / Contact Us
             </button>
           </Link>
         </nav>
@@ -94,7 +94,7 @@ export function Navigation() {
               ))}
               <Link href="/book">
                 <button className="w-full bg-[#F7DB91] text-black font-semibold py-3 rounded-xl mt-4">
-                  Book Strategy Call
+                  Connect / Contact Us
                 </button>
               </Link>
             </div>

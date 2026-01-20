@@ -89,7 +89,7 @@ export default function Home() {
               <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
                 <Link href="/book">
                   <button className="bg-black text-white hover:bg-gray-800 font-semibold py-4 px-8 rounded-full transition-all hover:shadow-xl hover:-translate-y-1 active:translate-y-0 flex items-center justify-center gap-2 group">
-                    Book a Free 30-Min Call
+                    Connect / Contact Us
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </button>
                 </Link>
@@ -404,7 +404,7 @@ export default function Home() {
               <p className="text-gray-400 text-lg mb-10">Stop waiting for the perfect moment. Let's turn your vision into a scalable digital product today.</p>
               <Link href="/book">
                 <button className="bg-[#F7DB91] hover:bg-[#F2D070] text-black font-bold text-lg py-5 px-10 rounded-full transition-all hover:shadow-[0_0_30px_rgba(247,219,145,0.4)] hover:-translate-y-1">
-                  Book Your Free Strategy Call
+                  Connect / Contact Us
                 </button>
               </Link>
             </div>

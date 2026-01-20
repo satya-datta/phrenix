@@ -13,6 +13,14 @@ export async function registerRoutes(
     try {
       const input = api.contact.submit.input.parse(req.body);
       const submission = await storage.createContactSubmission(input);
+      
+      // Mock email sending log as requested
+      console.log(`Sending email to kallepalli.satyadatta@gmail.com...`);
+      console.log(`From: ${input.name} <${input.email}>`);
+      console.log(`Subject: New Contact Inquiry from Phrenix Website`);
+      console.log(`Content: ${input.message}`);
+      if (input.phone) console.log(`Phone: ${input.phone}`);
+      
       res.status(201).json(submission);
     } catch (err) {
       if (err instanceof z.ZodError) {

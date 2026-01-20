@@ -7,6 +7,7 @@ export const contactSubmissions = pgTable("contact_submissions", {
   name: text("name").notNull(),
   email: text("email").notNull(),
   company: text("company"),
+  phone: text("phone"),
   message: text("message").notNull(),
   createdAt: timestamp("created_at").defaultNow(),
 });
@@ -14,6 +15,8 @@ export const contactSubmissions = pgTable("contact_submissions", {
 export const insertContactSchema = createInsertSchema(contactSubmissions).omit({
   id: true,
   createdAt: true,
+}).extend({
+  email: z.string().email(),
 });
 
 export type InsertContact = z.infer<typeof insertContactSchema>;
