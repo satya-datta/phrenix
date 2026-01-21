@@ -3,7 +3,7 @@ import {
   contactSubmissions,
   type InsertContact,
   type ContactSubmission,
-} from "@shared/schema";
+} from "../shared/schema";
 
 export interface IStorage {
   createContactSubmission(contact: InsertContact): Promise<ContactSubmission>;
